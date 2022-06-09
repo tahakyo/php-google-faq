@@ -13,17 +13,19 @@ body {
   font-weight: 400;
   line-height: 1.54;
 }
-
+img {
+  width: 100%;
+}
 html {
   font-family: "Google Sans", sans-serif;
 }
 
-a {
+main a {
   color: #3367d6;
   text-decoration: none;
 }
 
-h2 {
+main h2 {
   color: #3c4043;
   font-weight: 500;
   font-size: 24px;
@@ -32,7 +34,7 @@ h2 {
   padding: 64px 0 0 0;
 }
 
-h3 {
+main h3 {
   color: #3c4043;
   font-family: "Google Sans", sans-serif;
   font-weight: 500;
@@ -42,24 +44,53 @@ h3 {
   padding: 52px 0 0 0;
 }
 
-p {
+main p {
   line-height: 24px;
   padding-top: 20px;
 }
 
-ol {
+main ol {
   margin: 0 0 0 16px;
   padding: 0;
 }
 
-li {
+main li {
   line-height: 24px;
   padding-left: 16px;
   padding-top: 20px;
 }
-
+.flex {
+  display: flex;
+}
 .container {
   width: 65%;
   max-width: 1000px;
   margin: 0 auto;
+}
+/* header */
+header {
+  padding: 5px;
+}
+.logo_menu {
+  width: 50%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 80px;
+}
+.logo a {
+  text-decoration: underline;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li a {
+  text-decoration: none;
+}
+header li {
+  list-style: none;
 }

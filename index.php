@@ -74,7 +74,20 @@ error_reporting(E_ALL);
         ]
     ?>
   <!-- header -->
-  <header></header>
+  <header>
+    <div class="logo_menu">
+      <div class="logo">
+        <img src="img/logo_google.png" alt="">
+        <a href="">Privacy e termini</a>
+      </div>
+        <ul class="menu">
+          <li><a href="">menu#</a></li>
+          <li><a href="">menu#</a></li>
+          <li><a href="">menu#</a></li>
+          <li><a href="">menu#</a></li>
+        </ul>
+    </div>
+  </header>
   <!-- header -->
   <!-- main -->
   <main>
